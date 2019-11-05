@@ -1,7 +1,8 @@
-package com.rohit.kotlin.developerprofile
+package com.rohit.kotlin.developerprofile.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.rohit.kotlin.developerprofile.R
 
 class MainActivity : AppCompatActivity() {
 
