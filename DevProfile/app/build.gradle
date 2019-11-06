@@ -43,6 +43,9 @@ dependencies {
     // Image compressor for saving images in DB
     implementation 'id.zelory:compressor:2.1.0'
 
+    // For handling links in the textview
+    implementation 'me.saket:better-link-movement-method:2.2.0'
+
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.ProfileHomeActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/profileMainCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="@color/colorWebTab"
+        app:cardElevation="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profileThumbnailIV"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/photo_rohit" />
+
+            <TextView
+                android:id="@+id/profileDevName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/alfa_slab_one"
+                android:text="@string/developer_name"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/profileShortSkillsText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profileDevName"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="5dp"
+                android:layout_toStartOf="@id/profileThumbnailIV"
+                android:text="@string/profile_short_skills"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                android:textStyle="italic"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profileShortSkillsText"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@id/profileThumbnailIV"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/profileContactPhoneText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/text_contact_phone"
+                    android:textColor="@android:color/white"
+                    android:textColorLink="@color/colorLinkText"
+                    android:textSize="15sp"/>
+                <TextView
+                    android:id="@+id/profileContactEmailText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/text_contact_email"
+                    android:textColor="@android:color/white"
+                    android:textColorLink="@color/colorLinkText"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/profileTabContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileMainCardView"
+        android:layout_centerHorizontal="true">
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/profileTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPageTab"/>
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/profileViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp">
+
+        </androidx.viewpager.widget.ViewPager>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</RelativeLayout>

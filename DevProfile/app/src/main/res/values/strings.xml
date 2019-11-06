@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Rohit Joshi</string>
+    <string name="developer_name">Rohit Joshi</string>
+    <string name="profile_short_skills">Android, Kotlin, Flutter, Java developer</string>
+    <string name="text_contact_me">Get in touch</string>
+    <string name="text_contact_phone">Phone: +919890587299</string>
+    <string name="text_contact_email">Email: rohitcjoshi.4@gmail.com</string>
 
-    <string name="title_activity_splash">SplashActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

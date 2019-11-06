@@ -10,5 +10,6 @@
     <color name="transparent">#00000000</color>
 
     <color name="colorBg">#FF9800</color>
+    <color name="colorLinkText">#6200EE</color>
     <color name="black_overlay">#66000000</color>
 </resources>
