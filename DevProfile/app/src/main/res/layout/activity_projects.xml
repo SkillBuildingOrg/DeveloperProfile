@@ -5,15 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
+    android:background="@color/colorProjectsBg"
     tools:context=".ui.activities.ProjectsActivity">
 
     <LinearLayout
+        android:id="@+id/projectsContainerLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <TextView
-            android:id="@+id/textProjects"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+        android:orientation="vertical"
+        android:padding="5dp">
+
     </LinearLayout>
 </ScrollView>

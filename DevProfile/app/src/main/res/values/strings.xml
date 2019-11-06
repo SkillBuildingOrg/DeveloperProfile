@@ -37,4 +37,18 @@
     <string name="work_tenure_synerzip">FEB-2010 – AUG-2010</string>
     <string name="work_tenure_geodesic">DEC-2007 – FEB-2010</string>
     <string name="work_tenure_mobilewin">JAN-2007 – NOV-2007</string>
+
+<!--    Project names-->
+<!--    For Tieto-->
+    <string name="project_tieto_forex"><a href="https://play.google.com/store/apps/details?id=se.forex.android.mobilbank&amp;hl=en">FOREX Mobile Bank</a></string>
+    <string name="project_tieto_forex_role">Application Architect, Lead Engineer</string>
+    <string name="project_tieto_forex_skills">Android, Java, Git, JSON, REST, Jenkins, JIRA, SonarQube, HockeyApp, App Center, Agile</string>
+    <string name="project_tieto_forex_responsibilities"><li>Responsible for application’s architecture, design &amp; development</li>\n<li>Designed &amp; implemented Mobile BankID authentication, Payments, Cards, Accounts, Loan modules</li>\n<li>Ensuring business requirements &amp; functional specifications for each module are tested &amp; fulfilled before each delivery</li>\n<li>Coordinating with team members for system design, integration &amp; maintenance, project support, documentation, code reviews etc.</li></string>
+
+    <string name="project_tieto_mta"><a href="https://play.google.com/store/apps/details?id=com.nordea.mobiletoken&amp;hl=en">Nordea Token Application</a></string>
+    <string name="project_tieto_mta_role">Senior Tech Lead</string>
+    <string name="project_tieto_mta_skills">Android, Java, Git, Gemalto SDK, REST, Jenkins, JIRA, HockeyApp, Agile</string>
+    <string name="project_tieto_mta_responsibilities"><li>Responsible for application\’s architecture, design, Gemalto SDK integration &amp; implementation of different modules</li>\n<li>Responsible for API analysis &amp; investigations for server side support, Code reviews, bug fixes, unit testing, Jenkins automation</li>\n<li>Coordinating &amp; cooperating with other platforms teams for efficient work progress</li></string>
+
+
 </resources>

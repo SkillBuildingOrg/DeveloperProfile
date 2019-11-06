@@ -16,7 +16,7 @@ class ProfileHomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_profile_home)
-        supportActionBar!!.title = "Profile"
+        supportActionBar!!.title = "PROFILE"
 
         BetterLinkMovementMethod.linkify(Linkify.ALL, this)
 
