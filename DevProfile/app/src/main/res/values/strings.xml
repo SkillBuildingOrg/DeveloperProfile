@@ -6,6 +6,35 @@
     <string name="text_contact_phone">Phone: +919890587299</string>
     <string name="text_contact_email">Email: rohitcjoshi.4@gmail.com</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="summery_bullet_list"><li>Over 12 years of experience as a technology professional in managing &amp; developing high quality mobile applications in various technical-business roles</li>\n\n<li>Leading &amp; mentoring team of mobile developers</li>\n\n<li>Adept in analyzing Customer/System needs, evaluating end-user requirements, custom designing solutions</li>\n\n<li>Experienced in working with Clients, business managers and technical teams for executing concurrent projects</li>\n\n<li>KPI driven individual who considers time-budget constraints as opportunities for growth vs obstacles</li>\n\n<li>Passionate about bringing ideas on paper to life on electronics, ability to zoom in-out situational context to make appropriate decisions</li>\n\n<li>5+ years of experience in mobile banking domain</li>\n\n<li>3+ years of experience in US healthcare insurance domain</li></string>
+    <string name="skills_bullet_list"><li> Android Development</li>\n<li> Kotlin</li>\n<li> Core Java</li>\n<li> MVC</li>\n<li> MVVM</li>\n<li> Git</li>\n<li> Flutter</li>\n<li> React-Native</li>\n<li> Jenkins</li>\n<li> App Center</li>\n<li> Agile</li>\n<li> Android Studio</li>\n<li> JIRA</li>\n<li> Leading &amp; Mentoring</li></string>
+    <string name="fragment_work">Rohit Joshi work</string>
+
+    <string name="contact_name_label">Name</string>
+    <string name="contact_email_label">Email</string>
+    <string name="contact_phone_label">Phone</string>
+    <string name="contact_email_id">rohitcjoshi.4@gmail.com</string>
+    <string name="contact_phone_number">+919890587299</string>
+    <string name="contact_linkedIn_label">LinkedIn Profile</string>
+    <string name="contact_git_label">GitHub Profile</string>
+    <string name="contact_linkedIn_url">"https://www.linkedin.com/in/rohitcjoshi/"</string>
+    <string name="contact_git_url">"https://github.com/rohitcjoshi"</string>
+
+    <string name="work_company_tieto">Tieto India Private Ltd.</string>
+    <string name="work_company_persistent">Persistent Systems Ltd.</string>
+    <string name="work_company_synerzip">Synerzip Softech Ltd.</string>
+    <string name="work_company_geodesic">Geodesic Ltd.</string>
+    <string name="work_company_mobilewin">Mobile2win India Pvt. Ltd.</string>
+
+    <string name="work_role_tieto">Senior Tech Lead, Lead Engineer</string>
+    <string name="work_role_persistent">Team Lead, Module Lead</string>
+    <string name="work_role_synerzip">Software Developer</string>
+    <string name="work_role_geodesic">Software Engineer</string>
+    <string name="work_role_mobilewin">Developer</string>
+
+    <string name="work_tenure_tieto">Developer</string>
+    <string name="work_tenure_persistent">Developer</string>
+    <string name="work_tenure_tieto">Developer</string>
+    <string name="work_tenure_tieto">Developer</string>
+    <string name="work_tenure_tieto">Developer</string>
 </resources>
