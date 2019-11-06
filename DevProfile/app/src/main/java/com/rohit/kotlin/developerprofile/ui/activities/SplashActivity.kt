@@ -4,9 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.view.View
 import com.rohit.kotlin.developerprofile.R
-import kotlinx.android.synthetic.main.activity_splash.*
 
 
 class SplashActivity : AppCompatActivity() {
@@ -18,7 +16,7 @@ class SplashActivity : AppCompatActivity() {
     override fun onStart() {
         super.onStart()
         Handler().postDelayed(Runnable {
-            startActivity(Intent(this, MainActivity::class.java))
+            startActivity(Intent(this, ProfileHomeActivity::class.java))
             finish()
         }, 2500)
     }
