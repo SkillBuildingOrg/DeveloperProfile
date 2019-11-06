@@ -3,13 +3,13 @@
     <color name="colorPrimary">#AEAFB6</color>
     <color name="colorPrimaryDark">#A8A8AC</color>
     <color name="colorAccent">#B5D9E2</color>
-    <color name="colorWebTab">#FF7822</color>
+    <color name="colorWebTab">#FBC02D</color>
     <color name="colorPageTab">#B0BEC5</color>
 
 
     <color name="transparent">#00000000</color>
 
-    <color name="colorBg">#FF9800</color>
+    <color name="colorBg">#FBC02D</color>
     <color name="colorLinkText">#7D47CC</color>
     <color name="black_overlay">#66000000</color>
 </resources>
