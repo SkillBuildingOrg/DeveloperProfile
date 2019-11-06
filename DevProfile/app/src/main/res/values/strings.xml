@@ -32,9 +32,9 @@
     <string name="work_role_geodesic">Software Engineer</string>
     <string name="work_role_mobilewin">Developer</string>
 
-    <string name="work_tenure_tieto">Developer</string>
-    <string name="work_tenure_persistent">Developer</string>
-    <string name="work_tenure_tieto">Developer</string>
-    <string name="work_tenure_tieto">Developer</string>
-    <string name="work_tenure_tieto">Developer</string>
+    <string name="work_tenure_tieto">JUNE-2014 – PRESENT</string>
+    <string name="work_tenure_persistent">AUG-2010 – MAY-2014</string>
+    <string name="work_tenure_synerzip">FEB-2010 – AUG-2010</string>
+    <string name="work_tenure_geodesic">DEC-2007 – FEB-2010</string>
+    <string name="work_tenure_mobilewin">JAN-2007 – NOV-2007</string>
 </resources>
