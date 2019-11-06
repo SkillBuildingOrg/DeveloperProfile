@@ -17,9 +17,11 @@
             android:layout_margin="10dp"
             app:cardElevation="5dp">
             <LinearLayout
+                android:id="@+id/layoutCompanyTieto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:clickable="true"
                 android:padding="7dp">
                 <TextView
                     android:layout_width="match_parent"
@@ -49,9 +51,11 @@
             android:layout_margin="10dp"
             app:cardElevation="5dp">
             <LinearLayout
+                android:id="@+id/layoutCompanyPersistent"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:clickable="true"
                 android:padding="7dp">
                 <TextView
                     android:layout_width="match_parent"
@@ -81,9 +85,11 @@
             android:layout_margin="10dp"
             app:cardElevation="5dp">
             <LinearLayout
+                android:id="@+id/layoutCompanySynerzip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:clickable="true"
                 android:padding="7dp">
                 <TextView
                     android:layout_width="match_parent"
@@ -113,9 +119,11 @@
             android:layout_margin="10dp"
             app:cardElevation="5dp">
             <LinearLayout
+                android:id="@+id/layoutCompanyGeodesic"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
+                android:clickable="true"
                 android:padding="7dp">
                 <TextView
                     android:layout_width="match_parent"
@@ -145,6 +153,7 @@
             android:layout_margin="10dp"
             app:cardElevation="5dp">
             <LinearLayout
+                android:id="@+id/layoutCompanyMobilewin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"

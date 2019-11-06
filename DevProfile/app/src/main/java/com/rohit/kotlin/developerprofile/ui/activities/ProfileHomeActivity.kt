@@ -4,6 +4,7 @@ import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.util.Linkify
+import android.view.View
 import androidx.core.content.ContextCompat
 import com.rohit.kotlin.developerprofile.R
 import com.rohit.kotlin.developerprofile.controller.ProfilePagerAdapter

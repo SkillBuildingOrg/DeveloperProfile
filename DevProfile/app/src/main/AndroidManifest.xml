@@ -10,6 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ui.activities.ProjectsActivity"
+            android:parentActivityName=".ui.activities.ProfileHomeActivity">
+        </activity>
         <activity
             android:name=".ui.activities.SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
@@ -17,11 +20,11 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.activities.ProfileHomeActivity">
-        </activity>
+        <activity android:name=".ui.activities.ProfileHomeActivity"></activity>
 
         <meta-data
             android:name="preloaded_fonts"

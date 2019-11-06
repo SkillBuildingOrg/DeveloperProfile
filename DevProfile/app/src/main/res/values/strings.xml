@@ -10,13 +10,13 @@
     <string name="skills_bullet_list"><li> Android Development</li>\n<li> Kotlin</li>\n<li> Core Java</li>\n<li> MVC</li>\n<li> MVVM</li>\n<li> Git</li>\n<li> Flutter</li>\n<li> React-Native</li>\n<li> Jenkins</li>\n<li> App Center</li>\n<li> Agile</li>\n<li> Android Studio</li>\n<li> JIRA</li>\n<li> Leading &amp; Mentoring</li></string>
     <string name="fragment_work">Rohit Joshi work</string>
 
-    <string name="contact_name_label">Name</string>
-    <string name="contact_email_label">Email</string>
-    <string name="contact_phone_label">Phone</string>
+    <string name="contact_name_label">Name:</string>
+    <string name="contact_email_label">Email:</string>
+    <string name="contact_phone_label">Phone:</string>
     <string name="contact_email_id">rohitcjoshi.4@gmail.com</string>
     <string name="contact_phone_number">+919890587299</string>
-    <string name="contact_linkedIn_label">LinkedIn Profile</string>
-    <string name="contact_git_label">GitHub Profile</string>
+    <string name="contact_linkedIn_label">LinkedIn Profile:</string>
+    <string name="contact_git_label">GitHub Profile:</string>
     <string name="contact_linkedIn_url">"https://www.linkedin.com/in/rohitcjoshi/"</string>
     <string name="contact_git_url">"https://github.com/rohitcjoshi"</string>
 
