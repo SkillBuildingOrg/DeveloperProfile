@@ -9,6 +9,12 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.rohit.kotlin.developerprofile.R
+import com.rohit.kotlin.developerprofile.models.educationHtml
+import com.rohit.kotlin.developerprofile.models.mobile2winHtml
+import com.rohit.kotlin.developerprofile.ui.activities.ProjectsActivity
+import com.rohit.kotlin.developerprofile.utils.HTMLUtils.Companion.loadHtmlText
+import kotlinx.android.synthetic.main.fragment_contact.view.*
+import kotlinx.android.synthetic.main.layout_project_info.view.*
 import me.saket.bettermovementmethod.BetterLinkMovementMethod
 
 /**
@@ -30,6 +36,8 @@ class ContactFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_contact, container, false)
+        val personalInfoView = inflater.inflate(R.layout.fragment_contact, container, false)
+        loadHtmlText(educationHtml, personalInfoView.personalEducationData)
+        return personalInfoView
     }
 }

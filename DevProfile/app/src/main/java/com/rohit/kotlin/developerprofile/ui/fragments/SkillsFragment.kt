@@ -8,6 +8,9 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.rohit.kotlin.developerprofile.R
+import com.rohit.kotlin.developerprofile.models.skillsHtml
+import com.rohit.kotlin.developerprofile.utils.HTMLUtils
+import kotlinx.android.synthetic.main.fragment_skills.view.*
 
 /**
  * A simple [Fragment] subclass.
@@ -19,6 +22,8 @@ class SkillsFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_skills, container, false)
+        val skillsView = inflater.inflate(R.layout.fragment_skills, container, false)
+        HTMLUtils.loadHtmlText(skillsHtml, skillsView.skillsSummeryText)
+        return skillsView
     }
 }

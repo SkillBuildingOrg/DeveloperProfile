@@ -38,7 +38,7 @@ class ProfilePagerAdapter(fm: FragmentManager) : FragmentStatePagerAdapter(fm, B
             0 -> return "SUMMERY"
             1 -> return "SKILLS"
             2 -> return "WORK"
-            3 -> return "CONTACT"
+            3 -> return "PERSONAL"
         }
         return super.getPageTitle(position)
     }

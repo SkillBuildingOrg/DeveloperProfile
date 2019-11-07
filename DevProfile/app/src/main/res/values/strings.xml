@@ -6,13 +6,10 @@
     <string name="text_contact_phone">Phone: +919890587299</string>
     <string name="text_contact_email">Email: rohitcjoshi.4@gmail.com</string>
 
-    <string name="summery_bullet_list"><li>Over 12 years of experience as a technology professional in managing &amp; developing high quality mobile applications in various technical-business roles</li>\n\n<li>Leading &amp; mentoring team of mobile developers</li>\n\n<li>Adept in analyzing Customer/System needs, evaluating end-user requirements, custom designing solutions</li>\n\n<li>Experienced in working with Clients, business managers and technical teams for executing concurrent projects</li>\n\n<li>KPI driven individual who considers time-budget constraints as opportunities for growth vs obstacles</li>\n\n<li>Passionate about bringing ideas on paper to life on electronics, ability to zoom in-out situational context to make appropriate decisions</li>\n\n<li>5+ years of experience in mobile banking domain</li>\n\n<li>3+ years of experience in US healthcare insurance domain</li></string>
-    <string name="skills_bullet_list"><li> Android Development</li>\n<li> Kotlin</li>\n<li> Core Java</li>\n<li> MVC</li>\n<li> MVVM</li>\n<li> Git</li>\n<li> Flutter</li>\n<li> React-Native</li>\n<li> Jenkins</li>\n<li> App Center</li>\n<li> Agile</li>\n<li> Android Studio</li>\n<li> JIRA</li>\n<li> Leading &amp; Mentoring</li></string>
-    <string name="fragment_work">Rohit Joshi work</string>
-
     <string name="contact_name_label">Name:</string>
     <string name="contact_email_label">Email:</string>
     <string name="contact_phone_label">Phone:</string>
+    <string name="contact_education_label">Education:</string>
     <string name="contact_email_id">rohitcjoshi.4@gmail.com</string>
     <string name="contact_phone_number">+919890587299</string>
     <string name="contact_linkedIn_label">LinkedIn Profile:</string>
@@ -37,18 +34,5 @@
     <string name="work_tenure_synerzip">FEB-2010 – AUG-2010</string>
     <string name="work_tenure_geodesic">DEC-2007 – FEB-2010</string>
     <string name="work_tenure_mobilewin">JAN-2007 – NOV-2007</string>
-
-<!--    Project names-->
-<!--    For Tieto-->
-    <string name="project_tieto_forex"><a href="https://play.google.com/store/apps/details?id=se.forex.android.mobilbank&amp;hl=en">FOREX Mobile Bank</a></string>
-    <string name="project_tieto_forex_role">Application Architect, Lead Engineer</string>
-    <string name="project_tieto_forex_skills">Android, Java, Git, JSON, REST, Jenkins, JIRA, SonarQube, HockeyApp, App Center, Agile</string>
-    <string name="project_tieto_forex_responsibilities"><li>Responsible for application’s architecture, design &amp; development</li>\n<li>Designed &amp; implemented Mobile BankID authentication, Payments, Cards, Accounts, Loan modules</li>\n<li>Ensuring business requirements &amp; functional specifications for each module are tested &amp; fulfilled before each delivery</li>\n<li>Coordinating with team members for system design, integration &amp; maintenance, project support, documentation, code reviews etc.</li></string>
-
-    <string name="project_tieto_mta"><a href="https://play.google.com/store/apps/details?id=com.nordea.mobiletoken&amp;hl=en">Nordea Token Application</a></string>
-    <string name="project_tieto_mta_role">Senior Tech Lead</string>
-    <string name="project_tieto_mta_skills">Android, Java, Git, Gemalto SDK, REST, Jenkins, JIRA, HockeyApp, Agile</string>
-    <string name="project_tieto_mta_responsibilities"><li>Responsible for application\’s architecture, design, Gemalto SDK integration &amp; implementation of different modules</li>\n<li>Responsible for API analysis &amp; investigations for server side support, Code reviews, bug fixes, unit testing, Jenkins automation</li>\n<li>Coordinating &amp; cooperating with other platforms teams for efficient work progress</li></string>
-
 
 </resources>

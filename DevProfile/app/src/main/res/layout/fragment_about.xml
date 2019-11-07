@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:fillViewport="true"
     tools:context=".ui.fragments.AboutFragment">
 
     <RelativeLayout
@@ -17,11 +18,10 @@
             app:cardElevation="5dp">
 
             <TextView
+                android:id="@+id/experienceSummaryText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:lineSpacingExtra="4dp"
                 android:padding="10dp"
-                android:text="@string/summery_bullet_list"
                 android:textSize="16sp" />
         </androidx.cardview.widget.CardView>
     </RelativeLayout>

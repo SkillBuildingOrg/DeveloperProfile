@@ -36,7 +36,7 @@
                 android:fontFamily="@font/alfa_slab_one"
                 android:text="@string/developer_name"
                 android:textColor="@android:color/white"
-                android:textSize="24sp" />
+                android:textSize="22sp" />
 
             <TextView
                 android:id="@+id/profileShortSkillsText"
@@ -95,7 +95,7 @@
             android:id="@+id/profileViewPager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="46dp">
+            android:layout_marginTop="50dp">
 
         </androidx.viewpager.widget.ViewPager>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,4 +1,4 @@
-package com.rohit.kotlin.developerprofile
+package com.rohit.kotlin.developerprofile.utils
 
 const val KEY_COMPANY_NAME = "CompanyName"
 const val KEY_COMPANY_TIETO = "Tieto"

@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.rohit.kotlin.developerprofile.*
 import com.rohit.kotlin.developerprofile.ui.activities.ProjectsActivity
+import com.rohit.kotlin.developerprofile.utils.*
 import kotlinx.android.synthetic.main.fragment_work.view.*
 
 /**
