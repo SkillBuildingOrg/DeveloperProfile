@@ -50,10 +50,8 @@ class ProfileHomeActivity : AppCompatActivity() {
                 val bufferSize = 1024
                 val assetManager = this.assets
                 val assetFiles = assetManager.list("resume")
-                Log.e("DOWNLOAD", "---------> List size : " + assetFiles?.size)
                 try {
                     assetFiles?.forEach {
-                        Log.e("DOWNLOAD", "---------> File Path : " + it.toString())
                         val inputStream = assetManager.open(it)
                         val fullPath = "/sdcard/Resume_Rohit/"
                         val dir = File(fullPath)
