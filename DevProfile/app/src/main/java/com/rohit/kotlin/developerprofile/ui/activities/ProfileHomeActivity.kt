@@ -51,9 +51,9 @@ class ProfileHomeActivity : AppCompatActivity() {
                 val assetManager = this.assets
                 val assetFiles = assetManager.list("resume")
                 try {
+                    val fullPath = "/sdcard/Resume_Rohit/"
                     assetFiles?.forEach {
                         val inputStream = assetManager.open(it)
-                        val fullPath = "/sdcard/Resume_Rohit/"
                         val dir = File(fullPath)
                         if (!dir.exists()) {
                             dir.mkdirs()
@@ -74,15 +74,16 @@ class ProfileHomeActivity : AppCompatActivity() {
                             outputStream.close()
                         }
                     }
+
+                    val alertBuilder = AlertDialog.Builder(this)
+                    alertBuilder.setTitle("Download Complete")
+                    alertBuilder.setMessage("Resume file saved in folder\n \"$fullPath\" successfully.")
+                    alertBuilder.setPositiveButton("Ok") { dialog, p1 -> dialog?.dismiss() }
+                    alertBuilder.create().show()
                 } catch (e: Exception) {
                     Log.e("DOWNLOAD", "Exception in opening file..")
                     Toast.makeText(this, "Download failed..!", Toast.LENGTH_LONG).show()
                 }
-                val alertBuilder = AlertDialog.Builder(this)
-                alertBuilder.setTitle("Download Complete")
-                alertBuilder.setMessage("Resume file saved in folder\n \"/sdcard/Resume_Rohit/\" successfully.")
-                alertBuilder.setPositiveButton("Ok") { dialog, p1 -> dialog?.dismiss() }
-                alertBuilder.create().show()
             } else {
                 // If permissions are not available then ask for it.
                 ActivityCompat.requestPermissions(this,
