@@ -82,6 +82,7 @@ class ProfileHomeActivity : AppCompatActivity() {
                     alertBuilder.create().show()
                 } catch (e: Exception) {
                     Log.e("DOWNLOAD", "Exception in opening file..")
+                    e.printStackTrace()
                     Toast.makeText(this, "Download failed..!", Toast.LENGTH_LONG).show()
                 }
             } else {
