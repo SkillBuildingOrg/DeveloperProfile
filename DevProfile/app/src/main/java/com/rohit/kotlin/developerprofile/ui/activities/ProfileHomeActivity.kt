@@ -78,7 +78,7 @@ class ProfileHomeActivity : AppCompatActivity() {
                     val alertBuilder = AlertDialog.Builder(this)
                     alertBuilder.setTitle("Download Complete")
                     alertBuilder.setMessage("Resume file saved in folder\n \"$fullPath\" successfully.")
-                    alertBuilder.setPositiveButton("Ok") { dialog, p1 -> dialog?.dismiss() }
+                    alertBuilder.setPositiveButton("Ok") { dialog, _ -> dialog?.dismiss() }
                     alertBuilder.create().show()
                 } catch (e: Exception) {
                     Log.e("DOWNLOAD", "Exception in opening file..")
@@ -103,9 +103,7 @@ class ProfileHomeActivity : AppCompatActivity() {
     }
 
     fun checkPermissions(): Boolean {
-        var isEnabled = false
-        isEnabled = (PackageManager.PERMISSION_GRANTED == ContextCompat.checkSelfPermission(applicationContext, android.Manifest.permission.WRITE_EXTERNAL_STORAGE) && PackageManager.PERMISSION_GRANTED == ContextCompat.checkSelfPermission(applicationContext, android.Manifest.permission.READ_EXTERNAL_STORAGE))
-        return isEnabled
+        return (PackageManager.PERMISSION_GRANTED == ContextCompat.checkSelfPermission(applicationContext, android.Manifest.permission.WRITE_EXTERNAL_STORAGE) && PackageManager.PERMISSION_GRANTED == ContextCompat.checkSelfPermission(applicationContext, android.Manifest.permission.READ_EXTERNAL_STORAGE))
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
