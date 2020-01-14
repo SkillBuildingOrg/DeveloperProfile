@@ -9,6 +9,8 @@ import com.rohit.kotlin.developerprofile.R
 import com.rohit.kotlin.developerprofile.models.summaryHtml
 import com.rohit.kotlin.developerprofile.utils.HTMLUtils
 import kotlinx.android.synthetic.main.fragment_about.view.*
+import java.lang.ClassCastException
+import java.lang.Exception
 
 /**
  * A simple [Fragment] subclass.
