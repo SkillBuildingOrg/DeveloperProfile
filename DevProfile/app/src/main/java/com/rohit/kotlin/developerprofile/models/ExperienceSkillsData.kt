@@ -7,18 +7,18 @@ import org.intellij.lang.annotations.Language
 val skillsHtml = """
         <div>
             <ul>
-                <li>Android Development</li>
+                <li>Android Application Development</li>
+                <li>Android SDK, Jetpack components</li>
                 <li>Kotlin</li>
                 <li>Core Java</li>
-                <li>MVC, MVVM</li>
+                <li>MVC, MVP, MVVM</li>
                 <li>Git</li>
+                <li>Jenkins</li>
+                <li>Agile</li>
                 <li>Flutter</li>
                 <li>React-Native</li>
-                <li>Jenkins</li>
+                <li>JIRA, Confluence, SonarQube, FindBugs, PMD</li>
                 <li>App Center</li>
-                <li>Agile</li>
-                <li>Android Studio</li>
-                <li>JIRA</li>
                 <li>Leading & Mentoring</li>
             </ul>
         </div>
